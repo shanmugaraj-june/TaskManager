@@ -69,13 +69,13 @@ export default function Layout() {
             <div className="user-role">{user?.role === 'ADMIN' ? 'Admin' : 'Member'}</div>
           </div>
             <button
-  className="btn btn-danger"
-  onClick={handleLogout}
-  style={{ display: 'flex', alignItems: 'center', gap: '6px' }}
->
-  <LogoutIcon />
-  Logout
-</button>
+                className="btn btn-danger"
+                onClick={handleLogout}
+                style={{ display: 'flex', alignItems: 'center', gap: '6px' }}
+              >
+                <LogoutIcon />
+                Logout
+          </button>
         </div>
       </aside>
 
